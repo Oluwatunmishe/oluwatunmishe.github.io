@@ -783,3 +783,19 @@ a:active {
   letter-spacing: 0.2rem;
   color: rgba(255, 255, 255, 0.5) !important;
 }
+.footer {
+  padding-top: 50px;
+  /* padding: 100px; */
+  margin: auto;
+}
+.footer .icon a {
+  padding-left: auto;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.f1 {
+  text-align: center;
+}
+hr {
+  border: 0.1px white solid;
+}
