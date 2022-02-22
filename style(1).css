@@ -107,6 +107,9 @@ a:active {
     padding: 2px 10px !important;
     color: #000;
   }
+  .site-navbar {
+    position: fixed;
+  }
 }
 .site-navbar .navbar-nav > li > a {
   color: #fff !important;
@@ -120,6 +123,9 @@ a:active {
 @media (max-width: 991.98px) {
   .site-navbar .navbar-nav > li > a {
     color: rgba(0, 0, 0, 0.7) !important;
+  }
+  .site-navbar {
+    position: fixed;
   }
 }
 .site-navbar .navbar-nav.active > a {
@@ -219,6 +225,7 @@ a:active {
   .site-hero h1 {
     font-size: 70px;
   }
+  
 }
 .site-hero h1,
 .site-hero .lead {
@@ -405,7 +412,8 @@ a:active {
   display: inline-block;
   cursor: pointer;
   padding: 20px;
-  -webkit-transition: 0.3s all ease;
+  -webkit-transition: 0.1s all ease;
+
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
@@ -465,6 +473,9 @@ a:active {
 @media (max-width: 736px) {
   .portfolio-area .filters ul li {
     padding: 6px 6px;
+  }
+  .site-navbar {
+    position: fixed;
   }
 }
 
@@ -589,6 +600,9 @@ a:active {
     -webkit-transition: none;
     -o-transition: none;
     transition: none;
+  }
+  .site-navbar {
+    position: fixed;
   }
 }
 
